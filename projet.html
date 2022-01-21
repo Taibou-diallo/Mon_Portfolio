@@ -13,16 +13,6 @@
     <!--le js de bootstrap <defer>:pour eviter de mettre le fichier javaScript en bas-->
     <script src="js/bootstrap.bundle.min.js" defer></script>
 
-    <style>
-        body {
-            position: relative;
-        }
-
-        .container {
-            margin-top: 100px;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -54,75 +44,135 @@
         </nav>
     </header>
 
-    <div class="contenu">
+    <div class="contenu-projets">
         <section>
-            <div class="container">
-                <div class="col-8 offset-2">
-                    <div class="carousel slide" data-bs-ride="carousel" id="lecarousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#lecarousel" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#lecarousel" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#lecarousel" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="21600">
-                                <img src="images/projet.png" alt="projet 1" class="d-block w-100 img-fluid rounded">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2 style="color: black;">Projet1</h2>
-                                    <h5 style="color: black;">Réalisation d'un site de vente en ligne de produits
-                                        locaux:</h5>
-                                    <p style="color: black;">Mise en place d'un site web qui jouera le rôle de trait
-                                        d'union entre les producteurs/vendeurs et les acheteurs de produits locaux.</p>
-                                    <h6 style="color: black;">Janvier-Février 2021</h6><br><br><br><br>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="21600">
-                                <img src="images/projet.png" alt="projet 2" class="d-block w-100  rounded">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h3 style="color: black;">Projet2</h3>
-                                    <h5 style="color: black;">Automatisation des codifications de lits universitaires:
-                                    </h5>
-                                    <p style="color: black;">Conception d'un site web qui permettra une gestion
-                                        automatique des codifications et des emprunts de matériel au sein du CROUS de
-                                        l'université Assane Seck de Ziguinchor.</p>
-                                    <h6 style="color: black;"> Avril-Juin 2021 </h6><br><br><br><br>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="21600">
-                                <img src="images/projet.png" alt="projet 3" class="d-block w-100 rounded">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h3 style="color: black;">projet3</h3>
-                                    <h5 style="color: black;">Conception et réalisation d'une application de gestion de
-                                        stocks avec la SGBD ACCESS: </h5>
-                                    <p style="color: black;">Développement d'une application de gestion de stock d'une
-                                        quincaillerie en adaptant la méthode MERISE. La mise en œuvre de cette gestion
-                                        est de garantir la précision , l'efficacité etla fiabilité des informations pour
-                                        une meilleure organisation.</p>
-                                    <h6 style="color: black;">Novembre-Décembre 2019</h6><br><br><br><br>
-                                </div>
-                            </div>
-                            <button type="button" class="carousel-control-prev" data-bs-slide="prev"
-                                data-bs-target="#lecarousel">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            </button>
-                            <button type="button" class="carousel-control-next" data-bs-slide="next"
-                                data-bs-target="#lecarousel">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            </button>
+            <div class="row mb-3 gy-3">
+                <div class="col-sm-10"
+                    style="margin-bottom: 5px; margin-top: 100px; margin-left: auto; margin-right: auto;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 30px; text-align: center;">Mes Réalisations</h5>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="row mb-3 gy-3">
+                <div class="col-sm-10 my-auto" style="margin-left: auto;  margin-right: auto;">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class=" card" style="margin-top: 20px;">
+                                        <img class="card-img-top" src="images/Capture3.PNG" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" style=" margin-left: 30px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Automatisation des codifications de lits universitaires:
+                                        </h5>
+                                        <p class="card-text">Il s'agit d'un projet d'équipe de trois personnes dans un
+                                            delai de trois mois. Ce projet s’inscrit dans le contexte du traitement
+                                            manuscrite des dossiers des étudiants ayant bénéficiés une codification
+                                            pédagogique. L'objectif etait de mettre en place un site web qui permettra
+                                            une gestion automatique des codifications et des emprunts de matériel au
+                                            sein du CROUS de l'université Assane Seck de Ziguinchor.Ainsi pour mener a
+                                            bien ce projet nous avons utilisé les outils tels que PowerAMC pour la
+                                            modelisation, HTML,CSS,javaScript bootstrap et php pour la programmation,
+                                            mySQL
+                                            comme SGBDR,Visual studio code comme editeur de text et Wamp 64.
+                                        </p>
+                                        <a href="https://codi-uasz.ngamcode.com/" class="btn btn-primary">
+                                            Visiter le site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+
+                            <div class="row mb-3 gy-3">
+                                <div class="col-sm-4">
+                                    <div class="card" style="margin-top: 20px;">
+                                        <img class="card-img-top" src="images/Capture4.PNG" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 p-fixed" style=" margin-left: 30px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Réalisation d'un site de vente en ligne de
+                                            produitslocaux:
+                                        </h5>
+                                        <p class="card-text">
+                                            Il s'agit d'un projet d'équipe de deux personnes.
+                                            La base de donnée est conçue par l'enseignante. L'ojectif du projet etait de
+                                            mettre en place un site web qui jouera le rôle de trait d'union entre les
+                                            producteurs/vendeurs et les acheteurs de produits locaux.
+                                            Les outils utilisés sont: HTML,CSS,PHP,mySQL,wampServer,Sublime text3 et un
+                                            template gratuit trouvé sur internet.</p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row mb-3 gy-3">
+                                <div class="col-sm-4">
+                                    <div class="card" style="margin-top: 20px;">
+                                        <img class="card-img-top" src="images/Capture5.PNG" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 p-fixed" style=" margin-left: 30px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conception et réalisation d'une application de gestion de
+                                            stocks avec la SGBD ACCESS</h5>
+                                        <p class="card-text"> Développement d'une application de gestion de stock d'une
+                                            quincaillerie en adaptant la méthode MERISE. La mise en œuvre de cette
+                                            gestion est de garantir la précision , l'efficacité etla fiabilité des
+                                            informations pour une meilleure organisation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+
+                            <br>
+                            <br>
+                            <div class="row mb-3 gy-3">
+                                <div class="col-sm-4">
+                                    <div class="card" style="margin-top: 20px;">
+                                        <img class="card-img-top" src="images/ClavierVirtuel.PNG" alt="Card image cap">
+                                    </div>
+                                    <div class="card" style="margin-top: 20px;">
+                                        <img class="card-img-top" src="images/ClavierVirtuel2.PNG" alt="Card image cap">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 p-fixed" style=" margin-left: 30px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Clavier Virtuel (integration) </h5>
+                                        <p class="card-text">Réalisation d'un clavier virtuel complet reprenant la
+                                            structure d'un clavier physique.Le clavier possede un boutton qui permet de
+                                            passer du mode clair au mode sombre.<br>
+                                            Les langages utilisés sont le HTLM et le CSS.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
         </section>
     </div>
 
     <footer>
         <div class="contenu-footer">
             <div class=" bloc colonne-reseaux_sociaux">
-                <h3> reseaux sociaux</h3>
+                <h3> réseaux sociaux</h3>
                 <div class="colonne">
                     <!--lien de l'icone git hub sur bootstrap-->
                     <a href="https://github.com/Taibou-diallo/">
@@ -135,7 +185,7 @@
                 </div>
                 <div class="colonne">
                     <!--lien de l'icone de linkIdin sur bootstrap-->
-                    <a href="https://linkedin.com/in/taibou-diallo-3a911b225">
+                    <a href="https://www.linkedin.com/in/taibou-diallo-3a911b225/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
                             <path
@@ -158,7 +208,7 @@
                 <h3> Mes contacts</h3>
                 <p>TEL: 07-45-37-46-09</p>
                 <p>Email: taiboumoron@gmail.com</p>
-                <p> Adresse: 34 rue du bois d'Avron, 93360 Nuilly Plaisance</p>
+                <p> Adresse: 23 route de Saint Denis, 95170 DEUIL LA BARRE</p>
             </div>
         </div>
     </footer>
